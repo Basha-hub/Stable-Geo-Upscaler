@@ -31,10 +31,9 @@ We evaluate the quality of the upscaled images using distinct perceptual metrics
 ## Project Contents
 | File Name | Description |
 | :--- | :--- |
-| **Geo_Upscaler_Pipeline.ipynb** | Main notebook containing the tiling logic, model inference pipeline, and stitching algorithm. |
-| **metrics_eval.py** | Script for calculating SSIM, FSIM, and LPIPS scores. |
-| **Upscale_Report_Draft.pdf** | Technical report detailing the methodology, model selection, and preliminary results. |
-| **data/** | Directory containing sample splits from Corpus Christi and Arizona datasets. |
+| **README.md** | Project documentation, overview, and setup instructions. |
+| **benchmark-gio-upscaler-1.ipynb** | **Phase 1: Model Benchmarking.** This notebook tests various upscaling models on standard (non-geospatial) benchmark data to evaluate baseline performance and select the optimal models for the thesis. |
+| **benchmark-gio-upscaler-2.ipynb** | **Phase 2: Geospatial Pipeline.** The core research implementation. It contains the sample satellite images (Corpus Christi & Arizona), the 6x6 tiling logic, the Stable Diffusion enhancement pipeline, and the final stitching algorithm. |
 
 ## Setup and Execution
 
